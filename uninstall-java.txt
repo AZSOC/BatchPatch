@@ -1,0 +1,4 @@
+Use WMI to remove Java
+
+wmic product where "name like 'Java%'" call uninstall
+
